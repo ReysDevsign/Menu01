@@ -1,0 +1,45 @@
+/*Retirar todas as margens e paddings automaticos*/
+
+* { margin: 0; padding: 0;}
+
+.menu { 
+    display: flex; /*deixa os itens um ao lado do outro*/
+    list-style: none; /*retira todos os pontos da frente de uma lista nao ordenada*/
+    justify-content: space-between; /*Espaço entre os itens*/
+   width: 500px; /*Largura entre os itens da tag 
+   // largura de um obejeto-Img*/
+}
+
+.menu a { 
+text-transform: uppercase; /*transforma o texto em maiuscula*/
+color: black;
+text-decoration: none; /*Retira todo sublinhado*/ 
+font-family: Arial;
+
+}
+
+/*Ao passar o mouse utiliza-se o "hover"*/
+
+.menu a:hover{ 
+    border-bottom: 2px solid blue; /*Borda inferior ao passar o mouse*/
+    color:red; 
+}
+
+nav { 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+
+}
+
+.Logh { 
+width: 250px;
+}
+
+header { 
+    background-color: beige;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
